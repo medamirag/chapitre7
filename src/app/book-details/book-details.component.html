@@ -1,0 +1,19 @@
+<div class="card d-flex justify-content-center" style="float:left; display:inline; width: 33%;">
+    <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+    <div class="card-body ">
+        <h5 class="card-title d-flex justify-content-center">{{titre}}</h5>
+        <div class="d-flex justify-content-center">
+            <img class="" style="height: 300px;width:300px" src="{{image}}" alt="">
+
+        </div>
+    </div>
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item">by {{auteur}}</li>
+    </ul>
+    <div class="card-body">
+        <div class="row">
+            <div class="col"> <a (click)="acheter()" class="card-link pointer">Acheter</a>            </div>
+            <div style="font-weight: 800;" class="col d-flex justify-content-end">Quantite : {{quantite}}</div>
+        </div>
+    </div>
+</div>
